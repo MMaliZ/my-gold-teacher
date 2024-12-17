@@ -1,0 +1,81 @@
+@import "./fonts.css";
+.teacher {
+  width: 100%;
+  max-width: 384px;
+  height: 611px;
+  background-color: #1f1f1f;
+  color: #fff;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 174px;
+  text-align: center;
+}
+
+.teacher__img {
+  border-radius: 50%;
+  border-radius: 999px;
+}
+
+.teacher__information {
+  width: 100%;
+  max-width: 304px;
+  height: 61px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+  text-align: center;
+}
+
+.teacher__home {
+  color: #c4f82a;
+}
+.teacher__name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.teacher__desription {
+  width: 304px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 24px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.teacher__links {
+  width: 100%;
+  max-width: 304px;
+  height: 289px;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 40px;
+  gap: 16px;
+}
+
+.teacher__link {
+  background-color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  gap: 16px;
+  line-height: 21px;
+  flex-direction: column;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.teacher__link:hover {
+  background-color: #c4f82a;
+  color: #1f1f1f;
+}
